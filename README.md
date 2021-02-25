@@ -1,3 +1,5 @@
 # radiognu-player
-Streaming Web Player
+
+## Streaming Web Player
+
 ![preview](imgs/preview.png)
