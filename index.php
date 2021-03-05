@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-    <meta name='description' content='Descripción de'>
+    <meta name='description' content='RadioGNU, La emisora del Ñu que te da nota :-)'>
     <meta name='author' content='Octavio Rossell'>
 	<title>RadioÑú</title>
     <link rel='icon' href='/imgs/favicon.png'>
@@ -14,7 +14,7 @@
 </head>
 <body class='bg-dark p-4' style=' background-image: url("imgs/fondo.png"); background-size: 100% 100%;'>
 	<audio id='reproductor'>
-    	<source src='http://stream.radiognu.org/listen.ogg' type='audio/ogg'>
+    	<source src='http://stream.radiognu.org:8087/listen.ogg' type='audio/ogg'>
     </audio>
 
 	<div class='container '>
