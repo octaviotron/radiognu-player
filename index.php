@@ -17,7 +17,7 @@
     	<source src='http://stream.radiognu.org:8087/listen.ogg' type='audio/ogg'>
     </audio>
 
-	<div class='container '>
+	<div class='container'>
 		<div class='row justify-content-md-center align-items-center mt-0 mb-2 p-0'>
             <div class='col-md-auto text-center py-4' style='
                 background-color: rgba(255, 255, 255, 0.7); 
@@ -27,7 +27,7 @@
 				<img src='imgs/banner.png' width='100%'>
 			</div>
 		</div>
-    	<div class='row justify-content-md-center align-items-center '>
+    	<div class='row justify-content-md-center align-items-center' id='idvol'>
         	<div class='col-md-auto text-center py-0' style='
 				background-color: rgba(0, 0, 0, 0.5); 
 				border-radius: 15px; 
@@ -44,7 +44,11 @@
 					<div class='col align-self-center text-white'>
 						<div id='play-bt' class='pb-2'><img src='imgs/play.svg' width='150px'></div>
 						<div id='mute-bt' class='pb-2'><img src='imgs/play.svg' width='150px'></div>
-						-<input type="range" class=' mt-4' id="vol" name="vol" min="0" max="1" value='0.7' step='0.1'>+
+						<div class='row justify-content-md-center align-items-center py-4'>
+							<button id='menos' class='btn btn-info py-0 my-0 mr-2 font-weight-bold'> - </button> 
+								<input type="range" id='rango' class='' id="vol" name="vol" min="0" max="1" value='0.7' step='0.1'> 
+							<button id='mas' class='btn btn-info py-0 my-0 ml-2 font-weight-bold'> + </button>
+						</div>
 					</div>
 				</div>
         	</div>
