@@ -17,6 +17,7 @@
     	<source src='http://stream.radiognu.org:8087/listen.ogg' type='audio/ogg'>
     </audio>
 
+<div class='row justify-content-md-center align-items-center m-0 p-0' style="height:100%"><div class='col'>
 	<div class='container'>
 		<div class='row justify-content-md-center align-items-center mt-0 mb-2 p-0'>
             <div class='col-md-auto text-center py-4' style='
@@ -44,7 +45,7 @@
 					<div class='col align-self-center text-white'>
 						<div id='play-bt' class='pb-2'><img src='imgs/play.svg' width='150px'></div>
 						<div id='mute-bt' class='pb-2'><img src='imgs/play.svg' width='150px'></div>
-						<div class='row justify-content-md-center align-items-center py-4'>
+						<div class='row justify-content-md-center align-items-center pt-4 pb-2'>
 							<button id='menos' class='btn btn-info py-0 my-0 mr-2 font-weight-bold'> - </button> 
 								<input type="range" id='rango' class='' id="vol" name="vol" min="0" max="1" value='0.7' step='0.1'> 
 							<button id='mas' class='btn btn-info py-0 my-0 ml-2 font-weight-bold'> + </button>
@@ -54,6 +55,7 @@
         	</div>
 	    </div>
 	</div>
+</div></div>
 <script src='/js/custom.js'></script>
 </body>
 </html>
